@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="form.css">
+   <style>
+     h1{
+        text-align: center;
+        color:white;
+        background-color: brown;
+        overflow: hidden;   
+    }
+    
+    h1:hover{
+        color: blue;
+    }
+    
+    h2{
+    color: aliceblue;
+    text-align: center;
+    background-color: black;
+    }
+    
+    
+    p{
+    text-align: center;
+    }
+    
+    
+    form input-type{
+    text-align: center;
+    }
+    
+    .container{
+        background-color: burlywood;
+        padding: 10px;;
+        border: 100px;
+        border-radius: 12px 20px;         <--chuchha katna ko laagi-->
+    }
+    
+    input[type="submit"]{
+        background-color:pink;
+        text-align: center;
+    }
+    
+    
+    input[type="submit"]:hover{
+        color:red;
+        cursor:zoom-in;
+    }
+    
+    input-type:hover{
+        color: blueviolet;
+    }
+    
+    input[type="submit"]{
+        border-radius: 10px;
+        padding: 12px 20px;
+    }
+   </style>
+    
+    
+</head>
+<body>
+    <div class="container">
+    <form action="#">
+        <h1>
+            payment form of Hospital
+        </h1>
+        <h2>
+            Contact information of Patient
+        </h2>
+
+        <p>
+            Name:<input type="text" name="" required placeholder="Rajan Bhandari">
+        </p>
+
+        <p>
+            Male<input type="radio" name="gender" id="male" required>
+            Female<input type="radio" name="gender" id="female" required>
+
+        </p>
+        <p>
+            Email:<input type="email" name="email" id="email" required>
+        </p>
+        <p>
+            pincode:<input type="number" name="pincode" id="pincode" required>
+        </p>
+        <h2>
+            Payment Information
+        </h2>
+        <p>
+            Card Type:<select name="Card_Type" id="Card_Type" required>
+                <option value="">--Select card type--</option>
+                <option value="Visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+            </select>
+        </p>
+        <p>
+            Card number<input type="number" name="card-number" id="card_number" required>
+        </p>
+            <p>
+            Expiration date:<input type="date" name="expiry date" id="expiry_date" required>
+            </p>
+            <p>
+            pincode:<input type="password" name="pincode" id="pincode" required>
+        </p>
+        <input type="Submit" value="Paynow">
+    </form>
+</div>
+</body>
+</html>
