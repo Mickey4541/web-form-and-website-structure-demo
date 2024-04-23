@@ -1,0 +1,61 @@
+
+C:\Users\Rajan Bhandari>git config --global user.name "Rajan Bhandari"
+
+C:\Users\Rajan Bhandari>git config --global user.email "rajanbhandari4541@gmail.com"
+
+C:\Users\Rajan Bhandari>git config --global core.editor "code --wait"
+
+C:\Users\Rajan Bhandari>git config --global core.autocrlf "input"
+
+C:\Users\Rajan Bhandari>git config --global -e => to edit the code
+
+- git config --list => To see the details what we have done for configuration.
+
+
+
+-----In vs code editor-----------
+- to change the directory=> cd (foldername)
+-to see  the lists or files => ls
+-to see all the lists and hidden files => ls -a
+-to know the status of git => git status
+
+
+adding and commit:
+=git add <-filename->
+= git add . => . means add all files
+
+to commit:
+- git commit -m "some meaningful message."
+
+push command: push means to upload local repo to remote repo
+Type git push origin main and press enter
+
+
+
+
+git installation:
+
+Git is a version control system is a tool that helps to track changes in code. It is popular free and open Source, fast and scalable.
+
+
+
+stages-
+u-untracked
+a- added or staged
+c- committed
+
+
+command we need to know:
+git status -s = to know current status of the unstaged and staged file
+git log --oneline = to know the current status of saved points
+.gitignore=> if we have to ignore some files and saying the GitHub to not to 
+track the file then we create the .gitignore file and write the file name inside 
+the .gitignore file.
+
+ek step paxi jana ko lagi: yaa going back to some previous saved points:
+git reset --hard HEAD~1  =>(three types of git reset: hard, soft and mixed) and head means current head position 1 step paxi jani vaneko ho HEAD~1 vaneko.
+
+
+
+
+
