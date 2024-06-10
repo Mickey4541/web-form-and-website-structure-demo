@@ -7,7 +7,7 @@ C = committed
 ...........................................
 git config --global user.name "Rajan Bhandari"
 
-git config --global user.email "rajanbhandari4541@gmail.com"
+git config --global user.email "rajanbhandari@gmail.com"
 
 
 //////yedi kei edit garnu pare default code editor vs code ho vaneko aani wait ko matlab terminal maa ma wait garirako xu jabasamma user ley tyo code end gardaina taba samma wait garxu vaneko(code lekhako matlab tei ho)
